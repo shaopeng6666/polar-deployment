@@ -17,4 +17,10 @@ kubectl apply -f kubernetes/platform/development/services/postgresql.yml
 
 # 删除Postgresql
 kubectl delete -f kubernetes/platform/development/services/postgresql.yml
+
+# 启动Redis
+kubectl apply -f kubernetes/platform/development/services/redis.yml
+
+# 删除Redis
+kubectl delete -f kubernetes/platform/development/services/redis.yml
 ````
